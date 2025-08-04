@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Card component for boxed content */
+.card {
+  @apply bg-white shadow-lg rounded-lg p-6;
+}
+
+/* Ensure body padding for fixed NavBar */
+body {
+  @apply pt-20;
+}
